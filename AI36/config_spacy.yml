@@ -1,0 +1,3 @@
+language: "zh_core_web_lg"
+
+pipeline: "spacy_sklearn"

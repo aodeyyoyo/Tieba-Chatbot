@@ -1,0 +1,5 @@
+cn2an==0.5.5
+telegram==0.0.1
+requests==2.24.0
+rasa_nlu==0.15.1
+beautifulsoup4==4.9.1
