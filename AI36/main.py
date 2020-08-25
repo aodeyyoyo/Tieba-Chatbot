@@ -9,8 +9,8 @@ def respond(update, context):
     response = dialog.respond(msg)
     update.message.reply_text(response)
 
-
-updater = Updater('1105635246:AAF0mhBhv4DDk23CMLEQ8oxv42nnz9LOX3U', use_context=True, request_kwargs={
+token = '*************' #token不直接放出
+updater = Updater(token, use_context=True, request_kwargs={
     'proxy_url': "http://127.0.0.1:10809"
 })
 updater.dispatcher.add_handler(MessageHandler(callback=respond, filters=Filters.all))
